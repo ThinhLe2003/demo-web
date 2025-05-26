@@ -59,19 +59,19 @@
         effectBox.className = '';
 
         const body = document.body;
-        if (mainWeather.includes('rain')) {
+       if (mainWeather.includes('rain')) {
           effectBox.classList.add('rain');
-          body.style.backgroundImage = "url('img/rain.jpg')";
+          body.style.backgroundImage = "url('./rain.jpg')";
         } else if (mainWeather.includes('snow')) {
           effectBox.classList.add('snow');
-          body.style.backgroundImage = "url('img/snow.jpg')";
+          body.style.backgroundImage = "url('./snow.jpg')";
         } else if (mainWeather.includes('clear')) {
           effectBox.classList.add('sun');
-          body.style.backgroundImage = "url('img/sunny.jpg')";
+          body.style.backgroundImage = "url('./sunny.jpg')";
         } else if (mainWeather.includes('cloud')) {
-          body.style.backgroundImage = "url('img/cloud.jpg')";
+          body.style.backgroundImage = "url('./cloud.jpg')";
         } else {
-          body.style.backgroundImage = "url('img/fog.jpg')";
+          body.style.backgroundImage = "url('./fog.jpg')";
         }
 
         const resultBox = document.getElementById('weather-result');
