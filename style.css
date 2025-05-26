@@ -9,7 +9,7 @@ body {
   background-position: center center; /* Canh giữa ảnh */
   background-repeat: no-repeat;       /* Không lặp ảnh */
   min-height: 100vh;
-  background-image: url(./img/VietNam.jpg);
+  background-image: url(./VietNam.jpg);
   margin: 0;
   transition: background-image 1s ease-in-out;
   image-rendering: auto;              /* Giúp hình mượt hơn */
